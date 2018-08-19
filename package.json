@@ -1,0 +1,23 @@
+{
+  "name": "jab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rpolacheck/jab.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./app/index.html --open"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1"
+  }
+}
