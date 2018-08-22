@@ -1,1 +1,5 @@
-console.log("test");
+export { default as About } from './About'
+export { default as Contact } from './Contact'
+export { default as Gym } from './Gym'
+export { default as Landing } from './Landing'
+export { default as Testimonials } from './Testimonials'
