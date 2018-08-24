@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "font-awesome.min.css": "^3.2.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1"

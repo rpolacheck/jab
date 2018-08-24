@@ -728,6 +728,10 @@ fbjs@^0.8.16:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
+font-awesome.min.css@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/font-awesome.min.css/-/font-awesome.min.css-3.2.1.tgz#0f51380b76d560125b5c9501459505ec4e4377e9"
+
 globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
