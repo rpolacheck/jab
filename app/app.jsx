@@ -6,21 +6,20 @@ import {
   Gym,
   Contact,
   Landing,
-  Testimonials
+  Testimonials,
 } from './components'
 
 /* Root Component*/
 function App(){
   return (
-    <div>
-      Hello World!
+    <div id="page-wrapper">
+      <Landing />
       <About />
       <Gym />
+      <Testimonials />
       <Contact />
-      <Landing />
-      <Testimonials />  
-    </div> 
+    </div>
   );
-};
+}
 
 export default App
