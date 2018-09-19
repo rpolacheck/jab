@@ -11,7 +11,7 @@ export default function Gym(){
 						</header>
 						<div className="row">
 							<article className="col-4 col-12-mobile special">
-								<a href="#" className="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="#" className="image featured"><img src="../../assets/images/jabgym1.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Gravida aliquam penatibus</a></h3>
 								</header>
