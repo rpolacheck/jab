@@ -6,7 +6,7 @@ export default function Landing() {
 			{/* Inner */}
 			<div className="inner">
 				<header>
-					<h1><a href="index.html" id="logo">Helios</a></h1>
+					<h1><a href="index.html" id="logo">Jab Fitness</a></h1>
 					<hr />
 					<p>Another fine freebie by HTML5 UP</p>
 				</header>
