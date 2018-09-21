@@ -2161,7 +2161,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../../assets/images/jablanding.jpg");
+		background-image: url("../../../public/images/jablanding.jpg");
 		/* background-image: url("images/boxing.jpg"); */
 		background-size: cover;
 		background-position: center center;
