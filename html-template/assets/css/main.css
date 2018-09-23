@@ -3113,3 +3113,9 @@ input, select, textarea {
 					}
 
 	}
+
+	/* Map */
+	.map {
+		width: 600;
+		height: 450px;
+	}
