@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Contact(){
     return (
-        <section className="contact">
+        <section id="footer">
             <header>
-                <h3>Nisl turpis nascetur interdum?</h3>
+                <h3 className = "contact">Contact Jab</h3>
             </header>
             <p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
             <ul className="icons">
