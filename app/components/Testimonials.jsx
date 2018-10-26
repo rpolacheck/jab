@@ -8,14 +8,20 @@ export default class Testimonials extends Component {
     };
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.x > -1 && this.state.x > prevState.x) {
+      this.stopReel(this.intervalID)
+    }
+  }
+
   reelForward = () => {
     let { x } = this.state;
-    this.intervalID = setInterval(() => this.setState({ x: x--}), 10)
+    this.intervalID = setInterval(() => this.setState({ x: x--}), 1)
   }
 
   reelBackward = () => {
     let { x } = this.state;
-    this.intervalID = setInterval(() => this.setState({ x: x++}), 10)
+    this.intervalID = setInterval(() => this.setState({ x: x++}), 1)
   }
 
   stopReel = () => {
@@ -36,9 +42,7 @@ export default class Testimonials extends Component {
             transform: `translate(${x}px, 0px)`,
           }}
         >
-
-          <article
-          >
+          <article>
             <a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
             <header>
               <h3><a href="#">Pulvinar sagittis congue</a></h3>
@@ -125,9 +129,7 @@ export default class Testimonials extends Component {
         />
         <span
           className="backward"
-          onMouseEnter={() => {
-            if (x < 0) this.reelBackward()
-          }}
+          onMouseEnter={this.reelBackward}
           onMouseLeave={this.stopReel}
         />
       </section>
