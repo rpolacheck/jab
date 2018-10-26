@@ -21,7 +21,10 @@ export default class Testimonials extends Component {
 
   reelBackward = () => {
     let { x } = this.state;
-    this.intervalID = setInterval(() => this.setState({ x: x++}), 1)
+
+    if (x < 0) {
+      this.intervalID = setInterval(() => this.setState({ x: x++}), 1)
+    }
   }
 
   stopReel = () => {
